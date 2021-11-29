@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url(../images/angel-jimenez.jpg);
+  text-align: center;
+  padding: center;
+  padding: 20%;
+  background-size: cover;
+}
+main h1 {
+  padding-left: 96px;
+  color: white;
+  font-size: 199px;
+  font-family: "Open Sans", sans-serif;
+}
+.titulo1 {
+  background: linear-gradient(to top, rgb(250, 74, 84), rgb(218, 1, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 96px;
+}
+
+.contenedor1 {
+  float: left;
+  margin: 14% 0 0 10%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.titulo2 {
+  font-size: 96px;
+}
+.contenedor2 {
+  margin: 10% 11% 0 0;
+  float: right;
+}
+p {
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  border: 1px solid rgb(253, 76, 92);
+  background: none;
+  background: rgb(253, 76, 92);
+  padding: 2%;
+  border-radius: 70px;
+  padding: 17px 55px 17px 55px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+.titulo3 {
+  background: linear-gradient(to top  right, rgb(250, 74, 84), rgb(218, 1, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 85px;
+}
+.contenedor3 {
+  font-family: "Noto Sans JP", sans-serif;
+  float: right;
+  margin: 10% 10% 17% 0;
+}
+
+.contenedor4 {
+  margin: 100px 0 0 9%;
+}
+
+.clear2 {
+  clear: both;
+}
+.contenedor5 {
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: url(../images/john-raptis.png);
+  background-size: cover;
+  padding: 20%;
+
+}
+
+.contenedor6{
+  float: right;
+  margin: -22% -8% -25% 0;
+  font-size: 34px;
+  color: white;
+
+}
+footer{
+  font-family: "Noto Sans JP", sans-serif;
+  background: linear-gradient(to right, rgb(250, 74, 84),  rgb(253,46,92));
+  width: 100%;
+  color: white;
+}
+
+.foot{
+  margin-right: 40px;
+  
+}
+
+.contenedor10 ,.contenedor9, .contenedor8, .contenedor7  {
+  float: right;
+  margin-right: 60px;
+  padding: 50px 0 150px 0%;
+  
+}
+
+.derecha{
+  margin: 0 742px 0 0;
+}
+
+.linea{
+  margin: 0 0 -268px 445px;
+}
+
+.abajo{
+  margin: 340px 0px 0 447px;
+  padding: 0 0 2% 0;
+ 
+}
+
+.gmail{
+  margin: -28px 0px 0 1975px;
+  
+}
+
+@media(max-width:750px){
+
+  * {
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  
+  main {
+    width: auto;
+    padding: 20%;
+    background-size: cover;
+  }
+  main h1 {
+    padding-left: 50px;
+    font-size: 77px;
+  
+  }
+  .titulo1 {
+    font-size: 56px;
+  }
+  
+  .contenedor1 {
+    float: left;
+    margin: 14% 0 0 10%;
+
+  }
+  .titulo2 {
+    font-size: 56px;
+  }
+  .contenedor2 {
+    margin: 10% 11% 0 0;
+    float: right;
+  }
+  p {
+    font-size: 15px;
+  }
+  
+  button {
+    padding: 2%;
+    border-radius: 70px;
+    padding: -1px 15px 17px 55px;
+
+  }
+  
+
+  .titulo3 {
+    font-size: 56px;
+  }
+  .contenedor3 {
+
+    float: right;
+    margin: 10% 24% 17% 0;
+  }
+  
+  .contenedor4 {
+    margin: 100px 0 0 9%;
+  }
+  
+  .clear2 {
+    clear: both;
+  }
+  .contenedor5 {
+    padding: 20%;
+  
+  }
+  
+  .contenedor6{
+    float: right;
+    margin: -22% -8% -25% 0;
+    font-size: 10px;
+
+  
+  }
+  footer{
+    width: 100%;
+
+  }
+  
+  .foot{
+    margin-right: 40px;
+    
+  }
+  
+  .contenedor10 ,.contenedor9, .contenedor8, .contenedor7  {
+    margin-right: 10px;
+    padding: 55px 0 40px 5%;
+  }
+
+  .matt{
+    width: 80%;
+  }
+
+  .wesley{
+    width: 80%;
+    margin: 0 -30px;
+  }
+  
+  .derecha{
+    margin: 0 142px 0 0;
+  }
+  
+  .linea{
+    margin: 0 0 -268px 125px;
+    
+  }
+  
+  .abajo{
+    margin: 300px 0px 0 120px;
+    padding: 0 0 2% 0;
+   
+  }
+  
+  .gmail{
+    margin: -28px 0px 0 1975px;
+    
+  }
+
+}
+
+
+@media(max-width:570px){
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  main {
+
+    padding: 20%;
+    background-size: cover;
+  }
+  main h1 {
+    padding-left: 36px;
+    font-size: 55px;
+  
+  }
+  .titulo1 {
+    font-size: 56px;
+  }
+  
+  .contenedor1 {
+    float: left;
+    margin: 14% 0 0 10%;
+
+  }
+  .titulo2 {
+    font-size: 56px;
+  }
+  .contenedor2 {
+    margin: 10% 11% 0 0;
+    float: right;
+  }
+  p {
+    font-size: 13px;
+  }
+  
+  button {
+    padding: 2%;
+    border-radius: 70px;
+    padding: -1px 15px 17px 55px;
+
+  }
+  
+
+  .titulo3 {
+    font-size: 56px;
+  }
+  .contenedor3 {
+
+    float: right;
+    margin: 10% 8% 17% 0;
+  }
+  
+  .contenedor4 {
+    margin: 100px 0 0 9%;
+  }
+  
+  .clear2 {
+    clear: both;
+  }
+  .contenedor5 {
+    padding: 20%;
+  
+  }
+  
+  .contenedor6{
+    float: right;
+    margin: -22% -8% -25% 0;
+    font-size: 10px;
+
+  
+  }
+  footer{
+    width: 100%;
+
+  }
+  
+  .foot{
+    margin-right: 40px;
+    
+  }
+  
+  .contenedor10 ,.contenedor9, .contenedor8, .contenedor7  {
+    margin-right: 10px;
+    padding: 55px 0 40px 15%;
+  }
+
+  .matt{
+    width: 80%;
+  }
+
+  .wesley{
+    width: 80%;
+    margin: 0 -30px;
+  }
+  
+  .derecha{
+    margin: 0 142px 0 0;
+  }
+  
+  .linea{
+    margin: 0 0 -268px 125px;
+    
+  }
+  
+  .abajo{
+    margin: 300px 0px 0 120px;
+    padding: 0 0 2% 0;
+   
+  }
+  
+  .gmail{
+    margin: -28px 0px 0 1975px;
+    
+  }
+
+}
